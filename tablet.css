@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Tablet view: 481px to 960px wide */
+/*tablet view: 481px to 960px*/
 
 body {
     font-family: Verdana, Geneva, Arial, sans-serif;
@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 
-/* Wrapper takes 100% of screen width */
+/*wrapper takes 100% screen width*/
 #wrapper {
     width: 100%;
     background-color: white;
@@ -62,7 +62,7 @@ footer a {
     color: #E6C11E;
 }
 
-/* Inputs take full width on tablet */
+/*inputs takes full width on tablet */
 input, textarea {
     padding: 10px;
     border: 2px solid #3D4899;
@@ -81,7 +81,7 @@ input[type="submit"] {
     width: auto;
 }
 
-/* Video and images scale to fit */
+/*video and images scales to fit */
 video {
     max-width: 100%;
     height: auto;

@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
-/* ============================================
-   COLOR SCHEME (from Adobe Color)
+/*-----------------------------------------------
+   The Colour Palette
    #3D4899 - Dark Blue
    #962EFF - Purple
    #B4C73C - Lime Green
    #E6C11E - Gold
    #56F074 - Light Green
-   ============================================ */
+   --------------------------------------------*/
 
-/* Body has a linear gradient background at 45 degrees */
+/*body has a linear gradient background at 45 degrees*/
 body {
     font-family: Verdana, Geneva, Arial, sans-serif;
     background: linear-gradient(45deg, #3D4899, #962EFF);
@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
 }
 
-/* Wrapper keeps content centered at 960px wide */
+/*wrapper keeps content centered at 960px*/
 #wrapper {
     width: 960px;
     margin: 0 auto;
@@ -27,7 +27,7 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-/* Header uses an angled gradient at 135 degrees */
+/*header uses an angled gradient at 135 degrees*/
 header {
     background: linear-gradient(135deg, #3D4899, #962EFF);
     color: white;
@@ -40,7 +40,7 @@ header h1 {
     font-size: 2rem;
 }
 
-/* Navigation links */
+/*navigation links*/
 nav a {
     color: white;
     text-decoration: none;
@@ -51,13 +51,13 @@ nav a {
     transition: background 0.3s, color 0.3s;
 }
 
-/* Hover effect on nav links */
+/*hover effect on nav links*/
 nav a:hover {
     background-color: #B4C73C;
     color: #3D4899;
 }
 
-/* Main content area */
+/*main content area*/
 main {
     padding: 25px;
     min-height: 400px;
@@ -73,7 +73,7 @@ main h3 {
     color: #962EFF;
 }
 
-/* Form input fields */
+/*AAbout me form input fields*/
 input, textarea {
     padding: 10px;
     border: 2px solid #3D4899;
@@ -90,7 +90,7 @@ input:focus, textarea:focus {
     box-shadow: 0 0 5px #962EFF;
 }
 
-/* Submit button */
+/*submit button*/
 input[type="submit"] {
     background: linear-gradient(45deg, #3D4899, #962EFF);
     color: white;
@@ -106,7 +106,7 @@ input[type="submit"]:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-/* Footer with angled gradient */
+/*footer angled gradient*/
 footer {
     background: linear-gradient(135deg, #3D4899, #962EFF);
     color: white;
@@ -122,7 +122,7 @@ footer a:hover {
     color: #B4C73C;
 }
 
-/* Video styling */
+/*video styling*/
 video {
     border: 3px solid #3D4899;
     border-radius: 10px;
@@ -130,7 +130,7 @@ video {
     margin-top: 10px;
 }
 
-/* Image styling */
+/*image styling*/
 img {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
