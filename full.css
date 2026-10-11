@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* ============================================
+   COLOR SCHEME (from Adobe Color)
+   #3D4899 - Dark Blue
+   #962EFF - Purple
+   #B4C73C - Lime Green
+   #E6C11E - Gold
+   #56F074 - Light Green
+   ============================================ */
+
+/* Body has a linear gradient background at 45 degrees */
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background: linear-gradient(45deg, #3D4899, #962EFF);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Wrapper keeps content centered at 960px wide */
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Header uses an angled gradient at 135 degrees */
+header {
+    background: linear-gradient(135deg, #3D4899, #962EFF);
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    color: #E6C11E;
+    font-size: 2rem;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover effect on nav links */
+nav a:hover {
+    background-color: #B4C73C;
+    color: #3D4899;
+}
+
+/* Main content area */
+main {
+    padding: 25px;
+    min-height: 400px;
+}
+
+main h2 {
+    color: #3D4899;
+    border-bottom: 3px solid #B4C73C;
+    padding-bottom: 8px;
+}
+
+main h3 {
+    color: #962EFF;
+}
+
+/* Form input fields */
+input, textarea {
+    padding: 10px;
+    border: 2px solid #3D4899;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #962EFF;
+    outline: none;
+    box-shadow: 0 0 5px #962EFF;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: linear-gradient(45deg, #3D4899, #962EFF);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 24px;
+    width: auto;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Footer with angled gradient */
+footer {
+    background: linear-gradient(135deg, #3D4899, #962EFF);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #E6C11E;
+}
+
+footer a:hover {
+    color: #B4C73C;
+}
+
+/* Video styling */
+video {
+    border: 3px solid #3D4899;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+
+/* Image styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    margin: 10px 0;
+}

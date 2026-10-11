@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Tablet view: 481px to 960px wide */
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background: linear-gradient(45deg, #3D4899, #962EFF);
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper takes 100% of screen width */
+#wrapper {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #3D4899, #962EFF);
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    color: #E6C11E;
+    margin: 0 0 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #B4C73C;
+    color: #3D4899;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #3D4899;
+    border-bottom: 3px solid #B4C73C;
+    padding-bottom: 8px;
+}
+
+footer {
+    background: linear-gradient(135deg, #3D4899, #962EFF);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #E6C11E;
+}
+
+/* Inputs take full width on tablet */
+input, textarea {
+    padding: 10px;
+    border: 2px solid #3D4899;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background: linear-gradient(45deg, #3D4899, #962EFF);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 24px;
+    width: auto;
+}
+
+/* Video and images scale to fit */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

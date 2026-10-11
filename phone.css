@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Phone view: 480px and narrower */
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background: linear-gradient(45deg, #3D4899, #962EFF);
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #3D4899, #962EFF);
+    color: white;
+    padding: 15px;
+}
+
+header h1 {
+    color: #E6C11E;
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+/* Navigation links stack vertically on phone */
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #B4C73C;
+    color: #3D4899;
+}
+
+main {
+    padding: 15px;
+}
+
+main h2 {
+    color: #3D4899;
+    border-bottom: 3px solid #B4C73C;
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: linear-gradient(135deg, #3D4899, #962EFF);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #E6C11E;
+}
+
+/* Inputs take full width */
+input, textarea {
+    padding: 10px;
+    border: 2px solid #3D4899;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Submit button is larger for touch screens */
+input[type="submit"] {
+    background: linear-gradient(45deg, #3D4899, #962EFF);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
